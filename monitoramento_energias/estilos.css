@@ -1,0 +1,90 @@
+/* Estilo geral */
+body {
+    background-color: #e6f0ff; /* Fundo claro para contraste */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Títulos */
+h2 {
+    margin-top: 20px;
+    color: #2a4d8f; /* Azul escuro suave */
+}
+
+/* Formulário */
+form {
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 50px auto;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border: 2px solid #2a4d8f; /* Azul escuro na borda */
+}
+
+
+
+/* Inputs e botões */
+input, textarea, select, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #bfd0e6;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+/* Botão */
+button {
+    background-color: #2a4d8f;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3a5fae; /* Efeito de hover */
+}
+
+/* Tabela */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #bfd0e6;
+}
+
+th {
+    background-color: #3a5fae; /* Azul mais forte */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f6ff; /* Linhas pares mais claras */
+}
+
+tr:hover {
+    background-color: #d6e4ff; /* Efeito de hover */
+}
+
+/* Links */
+a {
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+    color: #2a4d8f;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #3a5fae;
+}
